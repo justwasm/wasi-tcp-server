@@ -1,0 +1,13 @@
+[package]
+name = "wasi-tcp-server"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "wasi-tcp-server"
+path = "main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasmedge_wasi_socket = "0.4"
